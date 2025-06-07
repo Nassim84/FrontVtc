@@ -1,0 +1,27 @@
+node_modules# node_modules (trop lourd, inutile à versionner)
+node_modules/
+
+# output de Tailwind (généré automatiquement)
+output.css
+
+# fichiers système (selon OS)
+.DS_Store
+Thumbs.db
+
+# fichiers log ou temporaires
+*.log
+npm-debug.log*
+
+# .env ou config sensibles (si jamais tu en ajoutes)
+.env
+.env.local
+.env.*.local
+
+# dossiers de build (si tu build à un moment)
+dist/
+build/
+
+# backup ou fichiers d’édition
+*.bak
+*.swp
+*.tmp
