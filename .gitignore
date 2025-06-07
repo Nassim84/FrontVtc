@@ -1,8 +1,7 @@
 node_modules# node_modules (trop lourd, inutile à versionner)
 node_modules/
 
-# output de Tailwind (généré automatiquement)
-output.css
+
 
 # fichiers système (selon OS)
 .DS_Store
