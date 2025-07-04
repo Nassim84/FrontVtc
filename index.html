@@ -209,20 +209,9 @@
 
 							<div class="forms__input-area">
 								<div class="row">
+									<!-- Ligne 1 -->
 									<div class="col-sm-6">
 										<input type="text" name="nom" placeholder="Nom" required />
-										<input
-											type="tel"
-											name="telephone"
-											placeholder="Téléphone"
-											required
-										/>
-										<input
-											type="text"
-											name="depart"
-											placeholder="Lieu de départ"
-											required
-										/>
 									</div>
 									<div class="col-sm-6">
 										<input
@@ -231,24 +220,43 @@
 											placeholder="Email"
 											required
 										/>
+									</div>
+
+									<!-- Ligne 2 -->
+									<div class="col-12 mt-3">
+										<input
+											type="tel"
+											name="telephone"
+											placeholder="Téléphone"
+											required
+										/>
+									</div>
+
+									<!-- Ligne 3 -->
+									<div class="col-sm-6 mt-3">
+										<input
+											type="text"
+											name="depart"
+											placeholder="Lieu de départ"
+											required
+										/>
+									</div>
+									<div class="col-sm-6 mt-3">
 										<input
 											type="text"
 											name="arrivee"
 											placeholder="Lieu d'arrivée"
 											required
 										/>
-										<input type="datetime-local" name="dateHeure" required />
-										<input
-											type="datetime-local"
-											name="dateHeure"
-											required
-											class="w-full p-2 rounded bg-white text-black border border-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-500 appearance-none"
-										/>
 									</div>
-								</div>
 
-								<div class="row">
-									<div class="col-sm-12 mt-3">
+									<!-- Ligne 4 -->
+									<div class="col-12 mt-3">
+										<input type="datetime-local" name="dateHeure" required />
+									</div>
+
+									<!-- Message -->
+									<div class="col-12 mt-3">
 										<textarea
 											name="message"
 											placeholder="Message (facultatif)"
@@ -256,14 +264,17 @@
 											class="form-control w-100"
 										></textarea>
 									</div>
-								</div>
 
-								<button
-									class="buttons buttons--block buttons--dark"
-									type="submit"
-								>
-									<span>Demander un devis</span>
-								</button>
+									<!-- Bouton -->
+									<div class="col-12 mt-3">
+										<button
+											class="buttons buttons--block buttons--dark"
+											type="submit"
+										>
+											<span>Demander un devis</span>
+										</button>
+									</div>
+								</div>
 							</div>
 						</form>
 					</div>
