@@ -1,3 +1,3 @@
 # ZakHub
 
-Landing page for taxi service
+Landing page for vtc service
