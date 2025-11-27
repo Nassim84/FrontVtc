@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.ndrive.fr/sitemap.xml
+Sitemap: https://ndrive.fr/sitemap.xml
